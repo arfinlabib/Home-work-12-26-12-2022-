@@ -1,0 +1,299 @@
+/* common css start  */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+  text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+h1,h2{
+    font-family: 'Abril Fatface', cursive;
+}
+p{
+ font-family: 'Open Sans', sans-serif;
+}
+.contaner{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* common css end   */
+/* topbar css secton start end   */
+#top_bar .top_section{
+    background: #0f2f44;
+   
+}
+#top_bar .top_section .top_section_left,
+#top_bar .top_section .top_section_right{
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    padding: 17px 0;
+}
+#top_bar .top_section .row{
+    justify-content: space-between;
+}
+/* topbar css secton start end   */
+/* navigation section start  */
+nav .logo{
+    width: 20%;
+
+}
+nav .menu{
+    width: 80%;
+    justify-content: flex-end;
+}
+nav .row{
+    align-items: center;
+}
+nav ul{
+    justify-content: flex-end;
+}
+
+nav a{
+    display: block;
+    color: #0a0a0a;
+    text-transform: capitalize ;
+    padding: 40px 18px;
+    font-weight: 700;
+    transition: .6s;
+}
+nav a:hover{
+    color: #ffc400;
+    background: #fff2cb;
+}
+nav ul li button{
+    color: #eee;
+    border: none;
+    border: 1px solid #eee;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    background: none;
+    border-radius: 50%;
+    margin: 29px 10px;
+}
+/* navigation section start  */
+/* bannar section css start  */
+#bannar{
+    background-image: url(../img/Bizzency_bannar.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+#bannar  .contaner{
+    margin: auto;
+    padding-top: 7%;
+}
+#bannar h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 80px;
+    display: block;
+    color: #0f2f44;
+}
+#bannar h3{
+    font-size: 50px;
+    font-weight: 200;
+    display: block;
+    color: #0f2f44;
+}
+#bannar h5{
+    font-size: 32px;
+    letter-spacing: 7px;
+    color: #8484bf;   
+}
+#bannar p{
+    width: 466px;
+    color: #444444;
+    font-size: 14px;
+    padding: 30px 0;
+}
+#bannar .explore_more{
+    color: #fff;
+    background: #8484bf;
+    padding: 15px 20px;
+    display: inline-block;
+    border-radius: 7%;
+    font-size: 20px;
+    font-weight: 500;
+    transition: .6s;
+}
+#bannar .explore_more:hover{
+    color: #8484bf;
+    background: #fff;
+}
+#bannar i {
+    color: #8484bf;
+    height: 48px;
+    width: 48px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 48px;
+    margin: 0 20px;
+}
+/* bannar section css end  */
+/* about section css start  */
+#about .section_info{
+    width: 50%;
+    padding-top: 100px;
+}
+#about .section_img{
+    width: 50%;
+    padding-top: 100px;
+}
+#about .section_info h6{
+    font-size: 14px;
+    font-weight: 300;
+    color: #0f2f44;
+}
+#about .section_info h2{
+    font-size: 32px;
+    color: #0f2f44;
+}
+#about .section_info p{
+    font-size: 16px;
+    color: #0f2f44;
+    padding-top: 30px;
+}
+#about .section_info ul li{
+    padding-left: 28px;
+    padding-top: 16px;
+    color: #0f2f44;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+#about .section_info .know_more{
+    color: #0f2f44;
+    display: inline-block;
+    width: fit-content;
+    background: #ffc400;
+    padding: 15px 20px;
+    border-radius: 7%;
+    margin-top: 30px;
+    transition: .8s;
+}
+#about .section_info .know_more:hover{
+    color: #fffdfd;
+    background: #0f2f44;
+}
+#about .section_info .read_later {
+    color: #0f2f44;
+    display: inline-block;
+    width: fit-content;
+    background: #f5efef;
+    padding: 15px 20px;
+    border-radius: 7%;
+    margin-left: 10px;
+    margin-top: 30px;
+    transition: .8s;
+}
+#about .section_info .read_later:hover{
+    color: #fafdff;
+    background: #8484bf;
+}
+
+/* about section css end  */
+/* my skill section css start  */
+#my_skill  .section_img{
+    width: 50%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+#my_skill .section_img img{
+    width: 100%;
+}
+#my_skill  .section_info{
+    width: 50%;
+    text-align: right;
+    padding-left: 32px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#my_skill .section_info .section_item .row{
+    justify-content: space-between;
+}
+#my_skill .section_info .item_box{
+    padding-top: 50px;
+}
+#my_skill .section_info .section_item  .inner_contaner{
+    background: #dddddd;
+    width: 85%;
+    /* border-radius: 50%; */
+    height: 10px;
+
+}
+#my_skill .section_info .section_item .skill_abrg{
+    background: #5f76b0;
+    width: 90%;
+    height: 10px;
+    margin-left: 10%;
+}
+#my_skill .section_info .section_item .row{
+    align-items: center;
+}
+#my_skill .section_info .section_item h5{
+    padding-right: 15%;
+}
+#my_skill  .section_info  .section_item  .inner_contaner  .illustrator{
+    width: 85%;
+    background: #5d3b15;
+    height: 10px;
+    margin-left: 15%;
+}
+#my_skill .section_info .section_item .inner_contaner .Dreamweaver {
+    width: 75%;
+    background: #344a1f;
+    height: 10px;
+    margin-left: 25%;
+}
+#my_skill .section_info .section_item .inner_contaner .after_effects {
+    width: 80%;
+    background: #392960;
+    height: 10px;
+    margin-left: 20%;
+}
+#my_skill .section_info .section_item .inner_contaner img{
+    height: 50px;
+    width: 50px;
+    background: rgb(226, 225, 225);
+    border-radius: 50%;
+}
+#my_skill .section_info h2{
+    font-size: 32px;
+    color: #0f2f44;
+}
+#my_skill .section_info h6{
+    font-size: 14px;
+    color: #0f2f44;
+    font-weight: 300;
+}
+#my_skill .section_info p{
+    color: #0f2f44;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+#my_skill .section_info .section_item p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+#my_skill .section_info .section_item{
+    padding-top: 30px;
+}
+
+
+/*my skill section css end  */
+
+
